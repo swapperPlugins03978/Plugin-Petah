@@ -1,0 +1,310 @@
+[
+  {
+    "Type": "AthenaCharacterItemDefinition",
+    "Name": "Character_ZebraScramble_Bacon",
+    "Class": "UScriptClass'AthenaCharacterItemDefinition'",
+    "Properties": {
+      "BaseCharacterParts": [
+        {
+          "AssetPathName": "/Game/Characters/CharacterParts/Male/Medium/Heads/CP_Athena_Head_M_ZebraScramble_Bacon.CP_Athena_Head_M_ZebraScramble_Bacon",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Characters/Player/Female/Medium/Heads/F_MED_Lemon_Lime_Head/Meshes/F_MED_Lemon_Lime_Head_AnimBP_Child.0",
+          "SubPathString": ""
+        },
+        {
+          "AssetPathName": "/Game/Characters/CharacterParts/FaceAccessories/CP_M_MED_ZebraScramble_Bacon_FaceAcc.CP_M_MED_ZebraScramble_Bacon_FaceAcc",
+          "SubPathString": ""
+        }
+      ],
+      "HeroDefinition": {
+        "ObjectName": "FortHeroType'Hero_ZebraScramble_Bacon'",
+        "ObjectPath": "/Game/Athena/Heroes/Hero_ZebraScramble_Bacon.0"
+      },
+      "DynamicInstallBundleName": "CB_5F36735C4693C2B1255CFA8573599DA2",
+      "MetaTags": [
+        "Cosmetics.Emote.CharacterGroup.BigHead",
+        "Cosmetics.MetaTags.ZebraScramble"
+      ],
+      "ItemVariants": [
+        {
+          "ObjectName": "FortCosmeticCharacterPartVariant'Character_ZebraScramble_Bacon:FortCosmeticCharacterPartVariant_0'",
+          "ObjectPath": "/Game/Athena/Items/Cosmetics/Characters/Character_ZebraScramble_Bacon.1"
+        }
+      ],
+      "BaseShotGridId": 64049,
+      "VariantShotGridIds": [
+        77153,
+        84195
+      ],
+      "ShotGridIds": [
+        64049,
+        77153,
+        84195
+      ],
+      "DisplayName": {
+        "Namespace": "",
+        "Key": "DC96944C4883BBFA9A406B932E2611F8",
+        "SourceString": "Peter Griffin",
+        "LocalizedString": "Pter Griffin"
+      },
+      "ShortDescription": {
+        "Namespace": "",
+        "Key": "708C9C6A4A03D87AF160059533622F8A",
+        "SourceString": "Outfit",
+        "LocalizedString": "Outfit"
+      },
+      "Description": {
+        "Namespace": "",
+        "Key": "790AFBF042BF518D00DC2A9A6AE274C8",
+        "SourceString": "Holy Shit this is Lit",
+        "LocalizedString": "Holy Shit this is Lit"
+      },
+      "GameplayTags": [
+        "SoundLibrary.ID.StepType.ShoesSneakers",
+        "SoundLibrary.ID.ClothingType.Generic",
+        "SoundLibrary.ID.HandType.Glove",
+        "Cosmetics.LimitedTimeReward",
+        "Cosmetics.UserFacingFlags.HasUpgradeQuests",
+        "Cosmetics.Filter.Season.28",
+        "Cosmetics.Set.ShoutCause"
+      ],
+      "SmallPreviewImage": {
+        "AssetPathName": "/Game/Athena/Prototype/Textures/T_Placeholder_Item_Outfit.T_Placeholder_Item_Outfit",
+        "SubPathString": ""
+      },
+      "LargePreviewImage": {
+        "AssetPathName": "/Game/Athena/Prototype/Textures/T_Placeholder_Item_Outfit.T_Placeholder_Item_Outfit",
+        "SubPathString": ""
+      },
+      "Rarity": "EFortRarity::Petahh"
+    }
+  },
+  {
+    "Type": "FortCosmeticCharacterPartVariant",
+    "Name": "FortCosmeticCharacterPartVariant_0",
+    "Outer": "Character_ZebraScramble_Bacon",
+    "Class": "UScriptClass'FortCosmeticCharacterPartVariant'",
+    "Properties": {
+      "PartOptions": [
+        {
+          "VariantParts": [],
+          "VariantMaterials": [],
+          "VariantMaterialParams": [],
+          "InitalParticleSystemData": [],
+          "VariantParticles": [],
+          "VariantParticleParams": [],
+          "VariantSounds": [],
+          "VariantFoley": [],
+          "SocketTransforms": [],
+          "VariantActions": [],
+          "VariantMeshes": [],
+          "CosmeticProperties": [],
+          "MetaTags": {
+            "MetaTagsToApply": [],
+            "MetaTagsToRemove": []
+          },
+          "bStartUnlocked": false,
+          "bIsDefault": true,
+          "bHideIfNotOwned": false,
+          "CustomizationVariantTag": {
+            "TagName": "Cosmetics.Variant.Property.Stage1"
+          },
+          "VariantName": {
+            "Namespace": "",
+            "Key": "892BEAD44373EBBF4F7C53974201995B",
+            "SourceString": "Peter Griffin",
+            "LocalizedString": "Peter Griffin"
+          },
+          "PreviewImage": {
+            "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Heroes/Athena/Soldier/S28/T-Soldier-Hero-ZebraScramble-Bacon.T-Soldier-Hero-ZebraScramble-Bacon",
+            "SubPathString": ""
+          },
+          "UnlockRequirements": {
+            "CultureInvariantString": null
+          },
+          "UnlockingItemDef": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "VariantGameplayTags": []
+        },
+        {
+          "VariantParts": [
+            {
+              "AssetPathName": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_ZebraScramble_Eggs.CP_Athena_Body_M_ZebraScramble_Eggs",
+              "SubPathString": ""
+            }
+          ],
+          "VariantMaterials": [],
+          "VariantMaterialParams": [],
+          "InitalParticleSystemData": [],
+          "VariantParticles": [],
+          "VariantParticleParams": [],
+          "VariantSounds": [],
+          "VariantFoley": [],
+          "SocketTransforms": [],
+          "VariantActions": [],
+          "VariantMeshes": [],
+          "CosmeticProperties": [],
+          "MetaTags": {
+            "MetaTagsToApply": [],
+            "MetaTagsToRemove": []
+          },
+          "bStartUnlocked": false,
+          "bIsDefault": false,
+          "bHideIfNotOwned": false,
+          "CustomizationVariantTag": {
+            "TagName": "Cosmetics.Variant.Property.Stage2"
+          },
+          "VariantName": {
+            "Namespace": "",
+            "Key": "1715BCAE4593D76A90516E95E936841A",
+            "SourceString": "Gold Plated Peter Griffin",
+            "LocalizedString": "Gold Plated Peter Griffin"
+          },
+          "PreviewImage": {
+            "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Heroes/Variants/S28/Characters/T-Soldier-Hero-ZebraScramble-Eggs.T-Soldier-Hero-ZebraScramble-Eggs",
+            "SubPathString": ""
+          },
+          "UnlockRequirements": {
+            "CultureInvariantString": null
+          },
+          "UnlockingItemDef": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "VariantGameplayTags": []
+        },
+        {
+          "VariantParts": [
+            {
+              "AssetPathName": "/Game/Characters/CharacterParts/FaceAccessories/CP_M_LRG_ZebraScramble_Beans_FaceAcc.CP_M_LRG_ZebraScramble_Beans_FaceAcc",
+              "SubPathString": ""
+            },
+            {
+              "AssetPathName": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_ZebraScramble_Beans.CP_Athena_Body_M_ZebraScramble_Beans",
+              "SubPathString": ""
+            }
+          ],
+          "VariantMaterials": [],
+          "VariantMaterialParams": [],
+          "InitalParticleSystemData": [],
+          "VariantParticles": [],
+          "VariantParticleParams": [],
+          "VariantSounds": [],
+          "VariantFoley": [],
+          "SocketTransforms": [],
+          "VariantActions": [],
+          "VariantMeshes": [],
+          "CosmeticProperties": [],
+          "MetaTags": {
+            "MetaTagsToApply": [],
+            "MetaTagsToRemove": []
+          },
+          "bStartUnlocked": false,
+          "bIsDefault": false,
+          "bHideIfNotOwned": false,
+          "CustomizationVariantTag": {
+            "TagName": "Cosmetics.Variant.Property.Stage3"
+          },
+          "VariantName": {
+            "Namespace": "",
+            "Key": "B34E351D442DF293799E6BB7CC31139F",
+            "SourceString": "Fancy Peter Griffin",
+            "LocalizedString": "Fancy Peter Griffin"
+          },
+          "PreviewImage": {
+            "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Heroes/Variants/S28/Characters/T-Soldier-Hero-ZebraScramble-Beans.T-Soldier-Hero-ZebraScramble-Beans",
+            "SubPathString": ""
+          },
+          "UnlockRequirements": {
+            "CultureInvariantString": null
+          },
+          "UnlockingItemDef": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "VariantGameplayTags": []
+        },
+        {
+          "VariantParts": [
+            {
+              "AssetPathName": "/Game/Characters/CharacterParts/FaceAccessories/CP_M_MED_ZebraScramble_Bacon_FaceAcc.CP_M_MED_ZebraScramble_Bacon_FaceAcc",
+              "SubPathString": ""
+            },
+            {
+              "AssetPathName": "/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_M_ZebraScramble_Beans.CP_Athena_Body_M_ZebraScramble_Beans",
+              "SubPathString": ""
+            }
+          ],
+          "VariantMaterials": [],
+          "VariantMaterialParams": [
+            {
+              "MaterialToAlter": {
+                "AssetPathName": "/Game/Packages/Fortress_SharedMaterials/Base_Material/DEMO_Master_Inst.DEMO_Master_Inst",
+                "SubPathString": ""
+              },
+              "CascadeMaterialName": "None",
+              "ColorParams": [],
+              "TextureParams": [],
+              "FloatParams": [
+                {
+                  "Value": 1.0,
+                  "ParamName": "Hide Element 01"
+                }
+              ]
+            }
+          ],
+          "InitalParticleSystemData": [],
+          "VariantParticles": [],
+          "VariantParticleParams": [],
+          "VariantSounds": [],
+          "VariantFoley": [],
+          "SocketTransforms": [],
+          "VariantActions": [],
+          "VariantMeshes": [],
+          "CosmeticProperties": [],
+          "MetaTags": {
+            "MetaTagsToApply": [],
+            "MetaTagsToRemove": []
+          },
+          "bStartUnlocked": false,
+          "bIsDefault": false,
+          "bHideIfNotOwned": false,
+          "CustomizationVariantTag": {
+            "TagName": "Cosmetics.Variant.Property.Stage4"
+          },
+          "VariantName": {
+            "Namespace": "",
+            "Key": "FCAB8A014A6B0E4D83C770A2FCCCF91A",
+            "SourceString": "Fancy Peter Griffin (No Hat)",
+            "LocalizedString": "Fancy Peter Griffin (No Hat)"
+          },
+          "PreviewImage": {
+            "AssetPathName": "/Game/UI/Foundation/Textures/Icons/Heroes/Variants/S28/Characters/T-Soldier-Hero-ZebraScramble-BeansHatOFF.T-Soldier-Hero-ZebraScramble-BeansHatOFF",
+            "SubPathString": ""
+          },
+          "UnlockRequirements": {
+            "CultureInvariantString": null
+          },
+          "UnlockingItemDef": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "VariantGameplayTags": []
+        }
+      ],
+      "VariantChannelTag": {
+        "TagName": "Cosmetics.Variant.Channel.Progressive"
+      },
+      "VariantChannelName": {
+        "Namespace": "",
+        "Key": "A6D934A74B54CE92CFE02A8FBAD5B8B2",
+        "SourceString": "Style",
+        "LocalizedString": "Style"
+      }
+    }
+  }
+]
